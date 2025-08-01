@@ -1,0 +1,31 @@
+.moviesShop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 500px;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.shop-header {
+    display: flex;
+    width:100%;
+    background-color: #5271ef;
+    align-items: center;
+}
+
+.check-out-btn {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.counter {
+  color:#e50914;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.line {
+    width: 100%;
+    margin: 1rem auto;
+}
